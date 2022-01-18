@@ -1,0 +1,64 @@
+.form{
+    border-radius: 15px;
+	background-color: #f2f2f2;
+	padding: 20px;
+	max-width: 50%;
+	margin-left: 25%;
+}
+
+.col25{
+    float: left;
+    width: 30%;
+    text-align: right;
+}
+.col75{
+    float: left;
+    width: 70%;
+}  
+.row:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+label {
+padding: 12px 12px 12px 12px;
+display: inline-block;
+}
+input, select, textarea{
+width: 100%;
+padding: 12px;
+border: 1px solid #ccc;
+border-radius: 4px;
+box-sizing: border-box;
+resize: vertical;
+}
+.but{
+    width: max-content;
+    margin: 5px;
+}
+.cont{
+    margin-left: auto;
+    margin-right: auto;
+    width: max-content;
+}
+
+.notValid-alert{
+    color: red;
+}
+.Message-alert{
+    color: green;
+}
+.chcekbox{
+    display: flex;
+    width: 20px;
+    padding :12px 0px;
+}
+
+#validDetail{
+    
+    border-radius: 15px;
+    padding: 20px;
+    max-width: 50%;
+    margin-left: 25%;
+}
